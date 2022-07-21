@@ -13,9 +13,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
+data class Fees(
 
-data class Fees (
-
-	@SerializedName("flat_rate") val flat_rate : Flat_rate,
-	@SerializedName("structure") val structure : List<Structure>
+    @SerializedName("flat_rate") val flat_rate: Flat_rate,
+    @SerializedName("structure") val structure: List<Structure>
 )

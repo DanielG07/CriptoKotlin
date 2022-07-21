@@ -5,6 +5,7 @@ import com.danielg7.cripto.data.remote.models.Payload
 import com.danielg7.cripto.utils.DataState
 import com.danielg7.cripto.utils.ErrorResponse
 import javax.inject.Inject
+import timber.log.Timber
 
 class CriptoRemoteDataSourceImpl @Inject constructor(private val api: BitsoApi) :
     CriptoRemoteDataSource {
@@ -21,7 +22,6 @@ class CriptoRemoteDataSourceImpl @Inject constructor(private val api: BitsoApi) 
                 if (criptos != null) {
 
                     return DataState.Success(data = criptos)
-
                 } else {
                     return DataState.Error(
                         error = ErrorResponse(
@@ -41,7 +41,7 @@ class CriptoRemoteDataSourceImpl @Inject constructor(private val api: BitsoApi) 
                 )
             }
         } catch (e: Exception) {
-
+            Timber.e(e)
             return DataState.Error(
                 error = ErrorResponse(
                     status = 500,

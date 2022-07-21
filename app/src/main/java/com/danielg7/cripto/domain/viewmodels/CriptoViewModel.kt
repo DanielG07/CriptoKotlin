@@ -7,9 +7,9 @@ import com.danielg7.cripto.domain.usecases.CriptoUseCase
 import com.danielg7.cripto.utils.DataState
 import com.danielg7.cripto.utils.ErrorResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import javax.inject.Inject
 
 @HiltViewModel
 class CriptoViewModel @Inject constructor(private val useCase: CriptoUseCase) : ViewModel() {

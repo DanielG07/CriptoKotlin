@@ -1,6 +1,5 @@
 package com.danielg7.cripto.tutorial
 
-
 /**
  * Return sum of 2 numbers
  * @param a int operator

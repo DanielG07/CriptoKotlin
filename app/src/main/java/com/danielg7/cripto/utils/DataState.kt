@@ -6,5 +6,4 @@ sealed class DataState<out T : Any, out U : Any> {
     data class Error<U : Any>(val error: U) : DataState<Nothing, U>()
     object Loading : DataState<Nothing, Nothing>()
     object Finished : DataState<Nothing, Nothing>()
-
 }

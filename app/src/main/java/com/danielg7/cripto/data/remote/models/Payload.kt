@@ -13,17 +13,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
+data class Payload(
 
-data class Payload (
-
-	@SerializedName("book") val book : String,
-	@SerializedName("minimum_price") val minimum_price : Int,
-	@SerializedName("maximum_price") val maximum_price : Int,
-	@SerializedName("minimum_amount") val minimum_amount : Double,
-	@SerializedName("maximum_amount") val maximum_amount : Int,
-	@SerializedName("minimum_value") val minimum_value : Double,
-	@SerializedName("maximum_value") val maximum_value : Int,
-	@SerializedName("tick_size") val tick_size : Double,
-	@SerializedName("default_chart") val default_chart : String,
-	@SerializedName("fees") val fees : Fees
+    @SerializedName("book") val book: String,
+    @SerializedName("minimum_price") val minimum_price: Double,
+    @SerializedName("maximum_price") val maximum_price: Double,
+    @SerializedName("minimum_amount") val minimum_amount: Double,
+    @SerializedName("maximum_amount") val maximum_amount: Double,
+    @SerializedName("minimum_value") val minimum_value: Double,
+    @SerializedName("maximum_value") val maximum_value: Double,
+    @SerializedName("tick_size") val tick_size: Double,
+    @SerializedName("default_chart") val default_chart: String,
+    @SerializedName("fees") val fees: Fees
 )

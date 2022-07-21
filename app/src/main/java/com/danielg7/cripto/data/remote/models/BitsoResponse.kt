@@ -13,9 +13,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
+data class BitsoResponse(
 
-data class BitsoResponse (
-
-	@SerializedName("success") val success : Boolean,
-	@SerializedName("payload") val payload : List<Payload>
+    @SerializedName("success") val success: Boolean,
+    @SerializedName("payload") val payload: List<Payload>
 )

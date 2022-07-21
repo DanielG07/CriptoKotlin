@@ -34,7 +34,6 @@ class FullStackDeveloper(private val programingLanguages: List<String>) : IDevel
     override fun ask() {
         TODO("Not yet implemented")
     }
-
 }
 
 class AndroidDeveloper() {

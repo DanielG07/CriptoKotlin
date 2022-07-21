@@ -5,7 +5,6 @@ interface IEstudiante {
     fun reprobar(materia: String)
 }
 
-
 class Daniel(
     val materias: List<String>
 ) : IEstudiante {
@@ -24,4 +23,3 @@ class Daniel(
         println("Reprobo $materia")
     }
 }
-

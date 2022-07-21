@@ -13,10 +13,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
+data class Structure(
 
-data class Structure (
-
-	@SerializedName("volume") val volume : Int,
-	@SerializedName("maker") val maker : Double,
-	@SerializedName("taker") val taker : Double
+    @SerializedName("volume") val volume: Double,
+    @SerializedName("maker") val maker: Double,
+    @SerializedName("taker") val taker: Double
 )

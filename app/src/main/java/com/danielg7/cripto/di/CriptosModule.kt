@@ -18,5 +18,4 @@ class CriptosModule {
     fun provideApplicationContext(@ApplicationContext app: Context): Context {
         return (app as BaseApplication).applicationContext
     }
-
 }

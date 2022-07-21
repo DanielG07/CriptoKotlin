@@ -5,7 +5,7 @@ fun tablas() {
     tablas.forEach {
         println("----- Tabla del $it -----")
         for (i in 1..10) {
-            println("$it * $i = ${it*i}")
+            println("$it * $i = ${it * i}")
         }
     }
 
@@ -18,14 +18,13 @@ fun tablas() {
 
     val tablaOnce = Tabla(11)
     tablaOnce.imprimirTabla()
-
 }
 
-class Tabla (val numero: Int){
+class Tabla(val numero: Int) {
     fun imprimirTabla() {
         println("----- Tabla del $numero -----")
         for (i in 1..10) {
-            println("$numero * $i = ${numero*i}")
+            println("$numero * $i = ${numero * i}")
         }
     }
 }

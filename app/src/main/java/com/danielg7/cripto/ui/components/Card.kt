@@ -95,7 +95,6 @@ fun Card() {
             }
         }
     }
-
 }
 
 @Preview("Card")
