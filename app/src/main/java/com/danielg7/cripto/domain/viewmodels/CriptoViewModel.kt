@@ -1,5 +1,8 @@
 package com.danielg7.cripto.domain.viewmodels
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.danielg7.cripto.data.remote.models.Payload
@@ -14,6 +17,8 @@ import kotlinx.coroutines.flow.onEach
 @HiltViewModel
 class CriptoViewModel @Inject constructor(private val useCase: CriptoUseCase) : ViewModel() {
 
+    var criptos: List<Payload> by mutableStateOf(listOf())
+
     fun getCriptos(
         onSuccess: (successResponse: List<Payload>) -> Unit,
         onError: (errorResponse: ErrorResponse) -> Unit
@@ -23,6 +28,7 @@ class CriptoViewModel @Inject constructor(private val useCase: CriptoUseCase) : 
                 when (response) {
                     is DataState.Success -> {
                         onSuccess(response.data)
+                        criptos = response.data
                     }
                     is DataState.Error -> {
                         onError(response.error)

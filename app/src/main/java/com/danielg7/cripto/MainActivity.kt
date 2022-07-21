@@ -5,8 +5,15 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.BottomAppBar
+import androidx.compose.material.Scaffold
+import androidx.compose.material.Text
+import androidx.compose.material.TopAppBar
+import androidx.compose.ui.Modifier
 import com.danielg7.cripto.domain.viewmodels.CriptoViewModel
-import com.danielg7.cripto.ui.components.CriptoButton
 import com.danielg7.cripto.ui.theme.CriptoTheme
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
@@ -17,11 +24,38 @@ class MainActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Toast.makeText(this, "OnCreate", Toast.LENGTH_SHORT).show()
+
+        vm.getCriptos(onSuccess = {
+            Timber.v(it.size.toString())
+        },
+            onError = {
+                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
+            })
 
         setContent {
             CriptoTheme {
-                CriptoButton()
+                Scaffold(
+                    topBar = {
+                        TopAppBar(
+                            title = { Text(text = "Cripto") }
+                        )
+                    },
+                    bottomBar = {
+                        BottomAppBar { /* Bottom app bar content */ }
+                    }
+                ) {
+                    LazyColumn(
+                        modifier = Modifier.fillMaxSize()
+                    ) {
+                        items(vm.criptos) { item ->
+                            Row(
+                                modifier = Modifier.fillMaxWidth()
+                            ) {
+                                Text(text = item.book)
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -34,14 +68,6 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         Toast.makeText(this, "OnResume", Toast.LENGTH_SHORT).show()
-
-        vm.getCriptos(onSuccess = {
-            Timber.v(it.size.toString())
-            Toast.makeText(this, it.size.toString(), Toast.LENGTH_SHORT).show()
-        },
-            onError = {
-                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
-            })
     }
 
     override fun onPause() {
