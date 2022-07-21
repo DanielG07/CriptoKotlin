@@ -67,6 +67,7 @@ $dokka.location:com.danielg7.cripto.domain.usecases/CriptoUseCase/getCriptos/#/P
 $dokka.location:com.danielg7.cripto.domain.viewmodels////PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/index.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel///PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/index.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/CriptoViewModel/#com.danielg7.cripto.domain.usecases.CriptoUseCase/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/-cripto-view-model.html
+$dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/criptos/#/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/criptos.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/getCriptos/#kotlin.Function1[kotlin.collections.List[com.danielg7.cripto.data.remote.models.Payload],kotlin.Unit]#kotlin.Function1[com.danielg7.cripto.utils.ErrorResponse,kotlin.Unit]/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/get-criptos.html
 $dokka.location:com.danielg7.cripto.tutorial////PointingToDeclaration/app/com.danielg7.cripto.tutorial/index.html
 $dokka.location:com.danielg7.cripto.tutorial//PI/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-p-i.html
