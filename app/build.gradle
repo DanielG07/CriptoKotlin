@@ -5,6 +5,7 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'dagger.hilt.android.plugin'
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'org.jetbrains.dokka'
 
 apply from: '../ktlint.gradle'
 
@@ -57,6 +58,7 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+
 }
 
 dependencies {
@@ -96,3 +98,7 @@ dependencies {
 }
 
 check.dependsOn ktlint
+
+tasks.dokkaHtml.configure {
+    outputDirectory.set(file("../docs"))
+}

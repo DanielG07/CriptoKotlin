@@ -6,5 +6,8 @@ import com.danielg7.cripto.utils.ErrorResponse
 import kotlinx.coroutines.flow.Flow
 
 interface CriptosRepository {
+    /**
+     * @see getCriptos
+     */
     fun getCriptos(): Flow<DataState<List<Payload>, ErrorResponse>>
 }

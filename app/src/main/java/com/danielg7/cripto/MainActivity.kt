@@ -48,14 +48,4 @@ class MainActivity : ComponentActivity() {
         super.onPause()
         Toast.makeText(this, "OnPause", Toast.LENGTH_SHORT).show()
     }
-
-    override fun onStop() {
-        super.onStop()
-        Toast.makeText(this, "OnStop", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Toast.makeText(this, "OnDestroy", Toast.LENGTH_SHORT).show()
-    }
 }
