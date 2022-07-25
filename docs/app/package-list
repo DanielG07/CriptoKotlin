@@ -1,13 +1,54 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
+$dokka.location:com.danielg7.cripto.data.local.daos////PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/index.html
+$dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao///PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/index.html
+$dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao/deleteJobs/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/delete-jobs.html
+$dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/get-criptos.html
+$dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao/insertJobs/#kotlin.collections.List[com.danielg7.cripto.data.local.models.CriptoEntity]/PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/insert-jobs.html
+$dokka.location:com.danielg7.cripto.data.local.models////PointingToDeclaration/app/com.danielg7.cripto.data.local.models/index.html
+$dokka.location:com.danielg7.cripto.data.local.models//mapToDomain/com.danielg7.cripto.data.local.models.CriptoEntity#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/map-to-domain.html
+$dokka.location:com.danielg7.cripto.data.local.models//mapToDomain/kotlin.collections.List[com.danielg7.cripto.data.local.models.CriptoEntity]#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/map-to-domain.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity///PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/index.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/CriptoEntity/#kotlin.Int#kotlin.String#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.String/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/-cripto-entity.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/book/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/book.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/criptoId/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/cripto-id.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/default_chart/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/default_chart.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/maximum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/maximum_amount.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/maximum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/maximum_price.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/maximum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/maximum_value.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/minimum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/minimum_amount.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/minimum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/minimum_price.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/minimum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/minimum_value.html
+$dokka.location:com.danielg7.cripto.data.local.models/CriptoEntity/tick_size/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.models/-cripto-entity/tick_size.html
+$dokka.location:com.danielg7.cripto.data.local////PointingToDeclaration/app/com.danielg7.cripto.data.local/index.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase.Companion///PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/-companion/index.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase.Companion/TEST_MODE/#/PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/-companion/-t-e-s-t_-m-o-d-e.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase.Companion/getInstance/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/-companion/get-instance.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase///PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/index.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase/AppDataBase/#/PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/-app-data-base.html
+$dokka.location:com.danielg7.cripto.data.local/AppDataBase/criptoDao/#/PointingToDeclaration/app/com.danielg7.cripto.data.local/-app-data-base/cripto-dao.html
 $dokka.location:com.danielg7.cripto.data.remote.api////PointingToDeclaration/app/com.danielg7.cripto.data.remote.api/index.html
 $dokka.location:com.danielg7.cripto.data.remote.api/BitsoApi///PointingToDeclaration/app/com.danielg7.cripto.data.remote.api/-bitso-api/index.html
 $dokka.location:com.danielg7.cripto.data.remote.api/BitsoApi/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.api/-bitso-api/get-criptos.html
 $dokka.location:com.danielg7.cripto.data.remote.models////PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/index.html
+$dokka.location:com.danielg7.cripto.data.remote.models//mapToEntity/com.danielg7.cripto.data.remote.models.Cripto#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/map-to-entity.html
+$dokka.location:com.danielg7.cripto.data.remote.models//mapToEntity/kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto]#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/map-to-entity.html
 $dokka.location:com.danielg7.cripto.data.remote.models/BitsoResponse///PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-bitso-response/index.html
-$dokka.location:com.danielg7.cripto.data.remote.models/BitsoResponse/BitsoResponse/#kotlin.Boolean#kotlin.collections.List[com.danielg7.cripto.data.remote.models.Payload]/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-bitso-response/-bitso-response.html
+$dokka.location:com.danielg7.cripto.data.remote.models/BitsoResponse/BitsoResponse/#kotlin.Boolean#kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto]/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-bitso-response/-bitso-response.html
 $dokka.location:com.danielg7.cripto.data.remote.models/BitsoResponse/payload/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-bitso-response/payload.html
 $dokka.location:com.danielg7.cripto.data.remote.models/BitsoResponse/success/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-bitso-response/success.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto///PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/index.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/Cripto/#kotlin.String#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.String#com.danielg7.cripto.data.remote.models.Fees?/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/-cripto.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/book/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/book.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/default_chart/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/default_chart.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/fees/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/fees.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/maximum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/maximum_amount.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/maximum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/maximum_price.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/maximum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/maximum_value.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/minimum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/minimum_amount.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/minimum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/minimum_price.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/minimum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/minimum_value.html
+$dokka.location:com.danielg7.cripto.data.remote.models/Cripto/tick_size/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-cripto/tick_size.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Fees///PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-fees/index.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Fees/Fees/#com.danielg7.cripto.data.remote.models.Flat_rate#kotlin.collections.List[com.danielg7.cripto.data.remote.models.Structure]/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-fees/-fees.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Fees/flat_rate/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-fees/flat_rate.html
@@ -16,18 +57,6 @@ $dokka.location:com.danielg7.cripto.data.remote.models/Flat_rate///PointingToDec
 $dokka.location:com.danielg7.cripto.data.remote.models/Flat_rate/Flat_rate/#kotlin.Double#kotlin.Double/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-flat_rate/-flat_rate.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Flat_rate/maker/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-flat_rate/maker.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Flat_rate/taker/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-flat_rate/taker.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload///PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/index.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/Payload/#kotlin.String#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.Double#kotlin.String#com.danielg7.cripto.data.remote.models.Fees/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/-payload.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/book/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/book.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/default_chart/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/default_chart.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/fees/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/fees.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/maximum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/maximum_amount.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/maximum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/maximum_price.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/maximum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/maximum_value.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/minimum_amount/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/minimum_amount.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/minimum_price/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/minimum_price.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/minimum_value/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/minimum_value.html
-$dokka.location:com.danielg7.cripto.data.remote.models/Payload/tick_size/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-payload/tick_size.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Structure///PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-structure/index.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Structure/Structure/#kotlin.Double#kotlin.Double#kotlin.Double/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-structure/-structure.html
 $dokka.location:com.danielg7.cripto.data.remote.models/Structure/maker/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-structure/maker.html
@@ -37,9 +66,18 @@ $dokka.location:com.danielg7.cripto.data.repositories////PointingToDeclaration/
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepository///PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository/index.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepository/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository/get-criptos.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl///PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/index.html
-$dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/CriptosRepositoryImpl/#com.danielg7.cripto.data.CriptoRemoteDataSource/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/-criptos-repository-impl.html
+$dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/CriptosRepositoryImpl/#com.danielg7.cripto.data.CriptoRemoteDataSource#com.danielg7.cripto.data.CriptoLocalDataSource/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/-criptos-repository-impl.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/get-criptos.html
 $dokka.location:com.danielg7.cripto.data////PointingToDeclaration/app/com.danielg7.cripto.data/index.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSource///PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source/index.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSource/deleteCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source/delete-criptos.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSource/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source/get-criptos.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSource/insertCriptos/#kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto]/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source/insert-criptos.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSourceImpl///PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source-impl/index.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSourceImpl/CriptoLocalDataSourceImpl/#com.danielg7.cripto.data.local.AppDataBase/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source-impl/-cripto-local-data-source-impl.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSourceImpl/deleteCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source-impl/delete-criptos.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSourceImpl/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source-impl/get-criptos.html
+$dokka.location:com.danielg7.cripto.data/CriptoLocalDataSourceImpl/insertCriptos/#kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto]/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source-impl/insert-criptos.html
 $dokka.location:com.danielg7.cripto.data/CriptoRemoteDataSource///PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-remote-data-source/index.html
 $dokka.location:com.danielg7.cripto.data/CriptoRemoteDataSource/getCriptos/#/PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-remote-data-source/get-criptos.html
 $dokka.location:com.danielg7.cripto.data/CriptoRemoteDataSourceImpl///PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-remote-data-source-impl/index.html
@@ -49,8 +87,10 @@ $dokka.location:com.danielg7.cripto.di////PointingToDeclaration/app/com.danielg
 $dokka.location:com.danielg7.cripto.di/CriptosModule///PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/index.html
 $dokka.location:com.danielg7.cripto.di/CriptosModule/CriptosModule/#/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/-criptos-module.html
 $dokka.location:com.danielg7.cripto.di/CriptosModule/provideApplicationContext/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/provide-application-context.html
+$dokka.location:com.danielg7.cripto.di/CriptosModule/provideDatabase/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/provide-database.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule///PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/index.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule/DataSourceModule/#/PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/-data-source-module.html
+$dokka.location:com.danielg7.cripto.di/DataSourceModule/bindCriptosLocalDataSource/#com.danielg7.cripto.data.CriptoLocalDataSourceImpl/PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/bind-criptos-local-data-source.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule/bindCriptosRemoteDataSource/#com.danielg7.cripto.data.CriptoRemoteDataSourceImpl/PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/bind-criptos-remote-data-source.html
 $dokka.location:com.danielg7.cripto.di/NetworkModule///PointingToDeclaration/app/com.danielg7.cripto.di/-network-module/index.html
 $dokka.location:com.danielg7.cripto.di/NetworkModule/NetworkModule/#/PointingToDeclaration/app/com.danielg7.cripto.di/-network-module/-network-module.html
@@ -68,7 +108,7 @@ $dokka.location:com.danielg7.cripto.domain.viewmodels////PointingToDeclaration/
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel///PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/index.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/CriptoViewModel/#com.danielg7.cripto.domain.usecases.CriptoUseCase/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/-cripto-view-model.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/criptos/#/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/criptos.html
-$dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/getCriptos/#kotlin.Function1[kotlin.collections.List[com.danielg7.cripto.data.remote.models.Payload],kotlin.Unit]#kotlin.Function1[com.danielg7.cripto.utils.ErrorResponse,kotlin.Unit]/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/get-criptos.html
+$dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/getCriptos/#kotlin.Function1[kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto],kotlin.Unit]#kotlin.Function1[com.danielg7.cripto.utils.ErrorResponse,kotlin.Unit]/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/get-criptos.html
 $dokka.location:com.danielg7.cripto.tutorial////PointingToDeclaration/app/com.danielg7.cripto.tutorial/index.html
 $dokka.location:com.danielg7.cripto.tutorial//PI/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-p-i.html
 $dokka.location:com.danielg7.cripto.tutorial//lastName/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/last-name.html
@@ -174,6 +214,9 @@ $dokka.location:com.danielg7.cripto/MainActivity///PointingToDeclaration/app/co
 $dokka.location:com.danielg7.cripto/MainActivity/MainActivity/#/PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-main-activity.html
 com.danielg7.cripto
 com.danielg7.cripto.data
+com.danielg7.cripto.data.local
+com.danielg7.cripto.data.local.daos
+com.danielg7.cripto.data.local.models
 com.danielg7.cripto.data.remote.api
 com.danielg7.cripto.data.remote.models
 com.danielg7.cripto.data.repositories

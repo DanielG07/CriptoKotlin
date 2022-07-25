@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class com.danielg7.cripto.data.remote.models.** { *; }
+-keep class com.danielg7.cripto.domain.viewmodels.** { *; }

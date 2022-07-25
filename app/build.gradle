@@ -8,6 +8,7 @@ apply plugin: 'com.google.firebase.crashlytics'
 apply plugin: 'org.jetbrains.dokka'
 
 apply from: '../ktlint.gradle'
+apply from: '../dependencies.gradle'
 
 android {
     compileSdk 32
@@ -24,20 +25,60 @@ android {
             useSupportLibrary true
         }
     }
+    signingConfigs {
+        def keystoreDegubPropertiesFile = rootProject.file("keystore.debug.properties")
+        def keystoreDebugProperties = new Properties()
+        keystoreDebugProperties.load(new FileInputStream(keystoreDegubPropertiesFile))
 
+        def keystorePropertiesFile = rootProject.file("keystore.properties")
+        def keystoreProperties = new Properties()
+        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+        debug {
+            storeFile file(keystoreDebugProperties['appStoreFile'])
+            storePassword keystoreDebugProperties['appStorePassword']
+            keyAlias keystoreDebugProperties['appKeyAlias']
+            keyPassword keystoreDebugProperties['appKeyPassword']
+        }
+        release {
+            storeFile file(keystoreProperties['appStoreFile'])
+            storePassword keystoreProperties['appStorePassword']
+            keyAlias keystoreProperties['appKeyAlias']
+            keyPassword keystoreProperties['appKeyPassword']
+        }
+    }
     buildTypes {
         debug {
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+            resValue "string", "app_name", "Criptos (dev)"
+            signingConfig signingConfigs.debug
             minifyEnabled false
             shrinkResources false
             debuggable true
             buildConfigField("String", "BITSO_API_URL", "\"https://api.bitso.com\"")
         }
         release {
+            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources true
             debuggable false
             buildConfigField("String", "BITSO_API_URL", "\"https://api.bitso.com\"")
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    flavorDimensions "default"
+    productFlavors {
+        mexico {
+            resValue "string", "app_name", "Criptos (MX)"
+            applicationId "com.danielg7.cripto.mx"
+            buildConfigField("String", "PHONE_NUMBER", "\"5528490744\"")
+        }
+        brazil {
+            resValue "string", "app_name", "Criptos (BR)"
+            applicationId "com.danielg7.cripto.br"
+            buildConfigField("String", "PHONE_NUMBER", "\"5528490744\"")
         }
     }
     compileOptions {
@@ -88,6 +129,18 @@ dependencies {
 
     //Debug
     implementation 'com.jakewharton.timber:timber:5.0.1'
+
+
+    //Persistence
+    implementation "androidx.room:room-runtime:2.5.0-alpha02"
+    implementation "androidx.room:room-ktx:2.5.0-alpha02"
+    implementation "androidx.room:room-guava:2.5.0-alpha02"
+    kapt "androidx.room:room-compiler:2.5.0-alpha02"
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+    testImplementation "androidx.room:room-testing:2.5.0-alpha02"
+
+
+
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
