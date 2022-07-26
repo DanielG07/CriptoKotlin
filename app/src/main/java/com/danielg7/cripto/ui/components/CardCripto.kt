@@ -17,7 +17,8 @@ import com.danielg7.cripto.ui.theme.CriptoTheme
 import com.danielg7.cripto.ui.theme.Purple200
 
 @Composable
-fun CriptoCard(item: Cripto, onClick: () -> Unit) {
+// onClick: () -> Unit
+fun CriptoCard(item: Cripto) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
@@ -59,7 +60,7 @@ fun CriptoCardPreview() {
         minimum_value = 0.00,
         maximum_value = 0.00,
         tick_size = 0.00,
-        default_chart = 0.00
+        default_chart = "dos"
     )
     CriptoTheme {
         CriptoCard(item)

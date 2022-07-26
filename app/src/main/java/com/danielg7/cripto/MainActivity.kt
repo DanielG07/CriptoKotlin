@@ -11,9 +11,10 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import com.danielg7.cripto.domain.viewmodels.CriptoViewModel
-import com.danielg7.cripto.ui.components.CriptoCard
 import com.danielg7.cripto.ui.theme.CriptoTheme
 import com.danielg7.cripto.utils.hasInternetConnection
+import com.google.android.gms.tasks.OnCompleteListener
+import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
 
@@ -49,8 +50,6 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize()
                     ) {
                         items(vm.criptos) { item ->
-                            CriptoCard(item, onClick = {
-                            })
                         }
                     }
                 }
@@ -65,7 +64,13 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        Toast.makeText(this, "OnResume", Toast.LENGTH_SHORT).show()
+        FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
+            if (!task.isSuccessful) {
+                Timber.w("Fetching FCM registration token failed", task.exception)
+                return@OnCompleteListener
+            }
+            val token = task.result
+        })
     }
 
     override fun onPause() {

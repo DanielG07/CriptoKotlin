@@ -27,8 +27,7 @@ data class Cripto(
     @SerializedName("minimum_value") val minimum_value: Double,
     @SerializedName("maximum_value") val maximum_value: Double,
     @SerializedName("tick_size") val tick_size: Double,
-    @SerializedName("default_chart") val default_chart: String,
-    @SerializedName("fees") val fees: Fees?
+    @SerializedName("default_chart") val default_chart: String
 ) : Parcelable
 
 fun Cripto.mapToEntity() = CriptoEntity(

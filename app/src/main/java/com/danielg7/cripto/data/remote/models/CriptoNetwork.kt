@@ -36,8 +36,7 @@ fun CriptoNetwork.mapToDomain() = Cripto(
     minimum_value = minimum_value,
     maximum_value = maximum_value,
     tick_size = tick_size,
-    default_chart = default_chart,
-    fees = null
+    default_chart = default_chart
 )
 
 fun List <CriptoNetwork>.mapToDomain() = map { it.mapToDomain() }

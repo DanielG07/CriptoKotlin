@@ -1,6 +1,5 @@
 <resources>
     <string name="title_activity_cripto_detail">CriptoDetailActivity</string>
-    <string name="app_name">Criptos</string>
     <string name="card_location">Hola</string>
     <string name="btc_mxn">BTC/MXN</string>
     <string name="eth_btc">ETH/BTC</string>
@@ -16,10 +15,6 @@
     <string name="mana_btc">MANA/BTSC</string>
     <string name="mana_mxn">MANA/MXN</string>
     <string name="bat_btc">BAT/BTC</string>
-    <string name="bat_mxn">BAT/MNX</string>
-    <string name="btc_ars">BTC/ARS</string>
-    <string name="btc_dai">BTC/DAI</string>
-    <string name="dai_mxn">BTC/MXN</string>
     <string name="btc_usd">BTC/USD</string>
     <string name="xrp_usd">XRP/USD</string>
     <string name="eth_usd">ETH/USD</string>
@@ -41,7 +36,6 @@
     <string name="btc_cop">BTC/COP</string>
     <string name="axs_usd">AXS/USD</string>
     <string name="dydx_usd">DYDX/USD</string>
-    <string name="yfi_usd">YFI/USD</string>
     <string name="sand_usd">SAND/USD</string>
     <string name="shib_usd">SHIB/USD</string>
     <string name="snx_usd">SNX/USD</string>
