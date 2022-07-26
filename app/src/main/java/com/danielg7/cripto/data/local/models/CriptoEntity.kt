@@ -8,11 +8,10 @@ import com.danielg7.cripto.data.remote.models.Cripto
 
 @Entity(
     tableName = "criptos",
-    indices = [Index("criptoId")]
+    indices = [Index("book")]
 )
 data class CriptoEntity(
-    @PrimaryKey(autoGenerate = true) val criptoId: Int = 0,
-    @ColumnInfo(name = "book") val book: String,
+    @PrimaryKey() val book: String,
     @ColumnInfo(name = "minimum_price") val minimum_price: Double,
     @ColumnInfo(name = "maximum_price") val maximum_price: Double,
     @ColumnInfo(name = "minimum_amount") val minimum_amount: Double,

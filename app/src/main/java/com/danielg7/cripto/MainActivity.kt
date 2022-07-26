@@ -8,13 +8,12 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.BottomAppBar
-import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.TopAppBar
+import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import com.danielg7.cripto.domain.viewmodels.CriptoViewModel
+import com.danielg7.cripto.ui.components.CriptoCard
 import com.danielg7.cripto.ui.theme.CriptoTheme
+import com.danielg7.cripto.utils.hasInternetConnection
 import dagger.hilt.android.AndroidEntryPoint
 import timber.log.Timber
 
@@ -30,7 +29,9 @@ class MainActivity : ComponentActivity() {
         },
             onError = {
                 Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
-            })
+            },
+            refresh = hasInternetConnection()
+        )
 
         setContent {
             CriptoTheme {
@@ -48,11 +49,8 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize()
                     ) {
                         items(vm.criptos) { item ->
-                            Row(
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Text(text = item.book)
-                            }
+                            CriptoCard(item, onClick = {
+                            })
                         }
                     }
                 }

@@ -13,7 +13,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
-data class Payload(
+data class CriptoNetwork(
 
     @SerializedName("book") val book: String,
     @SerializedName("minimum_price") val minimum_price: Double,
@@ -26,3 +26,18 @@ data class Payload(
     @SerializedName("default_chart") val default_chart: String,
     @SerializedName("fees") val fees: Fees
 )
+
+fun CriptoNetwork.mapToDomain() = Cripto(
+    book = book,
+    minimum_price = minimum_price,
+    maximum_price = maximum_price,
+    minimum_amount = minimum_amount,
+    maximum_amount = maximum_amount,
+    minimum_value = minimum_value,
+    maximum_value = maximum_value,
+    tick_size = tick_size,
+    default_chart = default_chart,
+    fees = null
+)
+
+fun List <CriptoNetwork>.mapToDomain() = map { it.mapToDomain() }

@@ -5,5 +5,5 @@ import javax.inject.Inject
 
 class CriptoUseCase @Inject constructor(private val repository: CriptosRepository) {
 
-    fun getCriptos() = repository.getCriptos()
+    fun getCriptos(refresh: Boolean) = repository.getCriptos(refresh)
 }

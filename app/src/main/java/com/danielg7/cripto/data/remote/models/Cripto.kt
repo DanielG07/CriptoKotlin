@@ -1,7 +1,9 @@
 package com.danielg7.cripto.data.remote.models
 
+import android.os.Parcelable
 import com.danielg7.cripto.data.local.models.CriptoEntity
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
 /*
 Copyright (c) 2022 Kotlin Data Classes Generated from JSON powered by http://www.json2kotlin.com
@@ -14,6 +16,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For support, please feel free to contact me at https://www.linkedin.com/in/syedabsar */
 
+@Parcelize
 data class Cripto(
 
     @SerializedName("book") val book: String,
@@ -26,10 +29,9 @@ data class Cripto(
     @SerializedName("tick_size") val tick_size: Double,
     @SerializedName("default_chart") val default_chart: String,
     @SerializedName("fees") val fees: Fees?
-)
+) : Parcelable
 
 fun Cripto.mapToEntity() = CriptoEntity(
-    criptoId = 0,
     book = book,
     minimum_price = minimum_price,
     maximum_price = maximum_price,
