@@ -1,5 +1,7 @@
 package com.danielg7.cripto.di
 
+import com.danielg7.cripto.data.CriptoLocalDataSource
+import com.danielg7.cripto.data.CriptoLocalDataSourceImpl
 import com.danielg7.cripto.data.CriptoRemoteDataSource
 import com.danielg7.cripto.data.CriptoRemoteDataSourceImpl
 import dagger.Binds
@@ -16,4 +18,9 @@ abstract class DataSourceModule {
     abstract fun bindCriptosRemoteDataSource(
         dataSource: CriptoRemoteDataSourceImpl
     ): CriptoRemoteDataSource
+
+    @Binds
+    abstract fun bindCriptosLocalDataSource(
+        dataSource: CriptoLocalDataSourceImpl
+    ): CriptoLocalDataSource
 }

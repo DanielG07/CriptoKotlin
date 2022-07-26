@@ -29,7 +29,6 @@ data class Cripto(
 )
 
 fun Cripto.mapToEntity() = CriptoEntity(
-    criptoId = 0,
     book = book,
     minimum_price = minimum_price,
     maximum_price = maximum_price,

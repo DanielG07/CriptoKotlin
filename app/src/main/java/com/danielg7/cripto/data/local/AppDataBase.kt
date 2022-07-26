@@ -11,7 +11,7 @@ import com.danielg7.cripto.data.local.models.CriptoEntity
     entities = [
         CriptoEntity::class
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 
