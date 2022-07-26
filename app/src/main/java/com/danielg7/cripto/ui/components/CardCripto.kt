@@ -3,10 +3,7 @@ package com.danielg7.cripto.ui.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Icon
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ChevronRight
 import androidx.compose.material.icons.filled.Payments
@@ -22,8 +19,9 @@ import com.danielg7.cripto.ui.theme.BlueGray400
 import com.danielg7.cripto.ui.theme.CriptoTheme
 import com.danielg7.cripto.utils.getStringByIdName
 
+@OptIn(ExperimentalMaterialApi::class)
 @Composable
-fun CardCripto(item: Cripto) {
+fun CardCripto(item: Cripto, onClick: () -> Unit) {
     val context = LocalContext.current
 
     Spacer(modifier = Modifier.height(4.dp))
@@ -33,7 +31,8 @@ fun CardCripto(item: Cripto) {
             topEnd = 16.dp,
             bottomStart = 16.dp,
             bottomEnd = 16.dp
-        )
+        ),
+        onClick = onClick
 
     ) {
         Row(
@@ -82,7 +81,7 @@ fun CardCriptoPreview() {
         fees = null
     )
     CriptoTheme {
-        CardCripto(item)
+        CardCripto(item, {})
     }
 }
 
@@ -102,6 +101,6 @@ fun CardCriptoPreviewDark() {
         fees = null
     )
     CriptoTheme(darkTheme = true) {
-        CardCripto(item)
+        CardCripto(item, {})
     }
 }

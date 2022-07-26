@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Cripto"
         tools:targetApi="31" >
         <activity
-            android:name=".ui.CriptoDetailActivity"
+            android:name=".CriptoDetailsActivity"
             android:exported="false"
             android:label="@string/title_activity_cripto_detail"
             android:theme="@style/Theme.Cripto" />
