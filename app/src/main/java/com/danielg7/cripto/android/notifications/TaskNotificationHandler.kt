@@ -1,4 +1,4 @@
-package com.danielg7.cripto.android
+package com.danielg7.cripto.android.notifications
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -8,7 +8,9 @@ import android.content.Context
 import android.content.ContextWrapper
 import android.graphics.Color
 import android.os.Build
+import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
+import com.danielg7.cripto.MainActivity
 import com.danielg7.cripto.R
 
 class TaskNotificationHandler(private val context: Context) : ContextWrapper(context),
@@ -50,22 +52,38 @@ class TaskNotificationHandler(private val context: Context) : ContextWrapper(con
         title: String,
         message: String,
         channelId: String
-    ): Notification.Builder? {
+    ): NotificationCompat.Builder? {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            /*val pendingIntent =
+            val pendingIntent =
                 PendingIntent.getActivity(
                     this,
                     0,
                     MainActivity.getIntent(this),
                     PendingIntent.FLAG_MUTABLE
-                )*/
-            return Notification.Builder(applicationContext, channelId)
+                )
+            val startAction =
+                NotificationCompat.Action.Builder(
+                    R.drawable.ic_launcher_background,
+                    "Previous",
+                    pendingIntent
+                ).build()
+
+            val secondAction =
+                NotificationCompat.Action.Builder(
+                    R.drawable.ic_launcher_background,
+                    "Next",
+                    pendingIntent
+                ).build()
+
+            return NotificationCompat.Builder(applicationContext, channelId)
                 .setContentTitle(title)
                 .setContentText(message)
-                // .setContentIntent(pendingIntent)
+                .setContentIntent(pendingIntent)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setGroup(SUMMARY_GROUP_NAME)
-                .setColor(ContextCompat.getColor(this, R.color.teal_200))
+                .setColor(ContextCompat.getColor(this, R.color.purple_700))
+                .addAction(startAction)
+                .addAction(secondAction)
                 .setAutoCancel(true)
         }
         return null
@@ -76,7 +94,7 @@ class TaskNotificationHandler(private val context: Context) : ContextWrapper(con
         message: String,
         isHighImportance: Boolean,
         payload: Map<String, String>?
-    ): Notification.Builder? {
+    ): NotificationCompat.Builder? {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             return createNotificationWithChannel(
                 title,
@@ -90,8 +108,8 @@ class TaskNotificationHandler(private val context: Context) : ContextWrapper(con
     private fun createNotificationWithoutChannel(
         title: String,
         message: String
-    ): Notification.Builder {
-        return Notification.Builder(applicationContext)
+    ): NotificationCompat.Builder {
+        return NotificationCompat.Builder(applicationContext)
             .setContentTitle(title)
             .setContentText(message)
             .setSmallIcon(R.mipmap.ic_launcher)

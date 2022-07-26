@@ -1,8 +1,8 @@
-package com.danielg7.cripto.android
+package com.danielg7.cripto.android.notifications
 
-import android.app.Notification
 import android.app.NotificationManager
 import android.app.PendingIntent
+import androidx.core.app.NotificationCompat
 
 interface INotificationHandler {
     fun createNotification(
@@ -10,7 +10,7 @@ interface INotificationHandler {
         message: String,
         isHighImportance: Boolean,
         payload: Map<String, String>?
-    ): Notification.Builder?
+    ): NotificationCompat.Builder?
 
     fun publishNotificationSummaryGroup(isHightImportance: Boolean, pendingIntent: PendingIntent?)
     fun getManager(): NotificationManager

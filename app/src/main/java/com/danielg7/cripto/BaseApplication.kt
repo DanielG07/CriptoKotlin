@@ -9,6 +9,8 @@ import timber.log.Timber.Forest.plant
 @HiltAndroidApp
 class BaseApplication : Application() {
 
+    var taskNotificationsCounter = 0
+
     override fun onCreate() {
         super.onCreate()
 

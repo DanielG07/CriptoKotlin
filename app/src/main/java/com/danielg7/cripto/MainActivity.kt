@@ -1,5 +1,7 @@
 package com.danielg7.cripto
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -72,6 +74,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
+
         FirebaseMessaging.getInstance().token.addOnCompleteListener(OnCompleteListener { task ->
             if (!task.isSuccessful) {
                 Timber.w("Fetching FCM registration token failed", task.exception)
@@ -84,5 +87,16 @@ class MainActivity : ComponentActivity() {
     override fun onPause() {
         super.onPause()
         Toast.makeText(this, "OnPause", Toast.LENGTH_SHORT).show()
+    }
+
+    companion object {
+
+        fun getIntent(context: Context): Intent {
+            val intent = Intent(
+                context,
+                MainActivity::class.java
+            )
+            return intent
+        }
     }
 }
