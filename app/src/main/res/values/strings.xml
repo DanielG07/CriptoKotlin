@@ -51,4 +51,5 @@
     <string name="crv_usd">CRV/SUD</string>
     <string name="gala_usd">GALA/USD</string>
     <string name="ada_usd">ADA/USD</string>
+    <string name="title_activity_atm">AtmActivity</string>
 </resources>

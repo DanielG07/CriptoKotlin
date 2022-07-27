@@ -13,6 +13,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
 import androidx.compose.ui.Modifier
 import com.danielg7.cripto.domain.viewmodels.CriptoViewModel
+import com.danielg7.cripto.ui.atm.AtmActivity
 import com.danielg7.cripto.ui.components.CardCripto
 import com.danielg7.cripto.ui.theme.CriptoTheme
 import com.danielg7.cripto.utils.hasInternetConnection
@@ -57,7 +58,8 @@ class MainActivity : ComponentActivity() {
                     ) {
                         items(vm.criptos) { item ->
                             CardCripto(item = item, onClick = {
-                                val intent = CriptoDetailsActivity.getIntent(activityContext, item)
+                                // val intent = CriptoDetailsActivity.getIntent(activityContext, item)
+                                val intent = AtmActivity.getIntent(activityContext)
                                 startActivity(intent)
                             })
                         }

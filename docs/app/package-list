@@ -1,22 +1,34 @@
 $dokka.format:html-v1
 $dokka.linkExtension:html
-$dokka.location:com.danielg7.cripto.android////PointingToDeclaration/app/com.danielg7.cripto.android/index.html
-$dokka.location:com.danielg7.cripto.android/INotificationHandler///PointingToDeclaration/app/com.danielg7.cripto.android/-i-notification-handler/index.html
-$dokka.location:com.danielg7.cripto.android/INotificationHandler/createNotification/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/app/com.danielg7.cripto.android/-i-notification-handler/create-notification.html
-$dokka.location:com.danielg7.cripto.android/INotificationHandler/getManager/#/PointingToDeclaration/app/com.danielg7.cripto.android/-i-notification-handler/get-manager.html
-$dokka.location:com.danielg7.cripto.android/INotificationHandler/publishNotificationSummaryGroup/#kotlin.Boolean#android.app.PendingIntent?/PointingToDeclaration/app/com.danielg7.cripto.android/-i-notification-handler/publish-notification-summary-group.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion///PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/index.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/CHANNEL_HIGH_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-h-i-g-h_-i-d.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/CHANNEL_HIGH_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-h-i-g-h_-n-a-m-e.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/CHANNEL_LOW_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-l-o-w_-i-d.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/CHANNEL_LOW_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-l-o-w_-n-a-m-e.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/SUMMARY_GROUP_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-s-u-m-m-a-r-y_-g-r-o-u-p_-i-d.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler.Companion/SUMMARY_GROUP_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-companion/-s-u-m-m-a-r-y_-g-r-o-u-p_-n-a-m-e.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler///PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/index.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler/TaskNotificationHandler/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/-task-notification-handler.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler/createNotification/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/create-notification.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler/getManager/#/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/get-manager.html
-$dokka.location:com.danielg7.cripto.android/TaskNotificationHandler/publishNotificationSummaryGroup/#kotlin.Boolean#android.app.PendingIntent?/PointingToDeclaration/app/com.danielg7.cripto.android/-task-notification-handler/publish-notification-summary-group.html
+$dokka.location:com.danielg7.cripto.android.notifications////PointingToDeclaration/app/com.danielg7.cripto.android.notifications/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/INotificationHandler///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-i-notification-handler/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/INotificationHandler/createNotification/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-i-notification-handler/create-notification.html
+$dokka.location:com.danielg7.cripto.android.notifications/INotificationHandler/getManager/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-i-notification-handler/get-manager.html
+$dokka.location:com.danielg7.cripto.android.notifications/INotificationHandler/publishNotificationSummaryGroup/#kotlin.Boolean#android.app.PendingIntent?/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-i-notification-handler/publish-notification-summary-group.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationHandlerFactory///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-handler-factory/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationHandlerFactory/NotificationHandlerFactory/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-handler-factory/-notification-handler-factory.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationHandlerFactory/createNotificationHandler/#com.danielg7.cripto.android.notifications.NotificationType/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-handler-factory/create-notification-handler.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationType.LOCATION///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-type/-l-o-c-a-t-i-o-n/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationType.NEXT_JOB///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-type/-n-e-x-t_-j-o-b/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationType.TASK///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-type/-t-a-s-k/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/NotificationType///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-notification-type/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/CHANNEL_HIGH_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-h-i-g-h_-i-d.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/CHANNEL_HIGH_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-h-i-g-h_-n-a-m-e.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/CHANNEL_LOW_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-l-o-w_-i-d.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/CHANNEL_LOW_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-c-h-a-n-n-e-l_-l-o-w_-n-a-m-e.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/SUMMARY_GROUP_ID/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-s-u-m-m-a-r-y_-g-r-o-u-p_-i-d.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler.Companion/SUMMARY_GROUP_NAME/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-companion/-s-u-m-m-a-r-y_-g-r-o-u-p_-n-a-m-e.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler///PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/index.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler/TaskNotificationHandler/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/-task-notification-handler.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler/createNotification/#kotlin.String#kotlin.String#kotlin.Boolean#kotlin.collections.Map[kotlin.String,kotlin.String]?/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/create-notification.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler/getManager/#/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/get-manager.html
+$dokka.location:com.danielg7.cripto.android.notifications/TaskNotificationHandler/publishNotificationSummaryGroup/#kotlin.Boolean#android.app.PendingIntent?/PointingToDeclaration/app/com.danielg7.cripto.android.notifications/-task-notification-handler/publish-notification-summary-group.html
+$dokka.location:com.danielg7.cripto.android.services////PointingToDeclaration/app/com.danielg7.cripto.android.services/index.html
+$dokka.location:com.danielg7.cripto.android.services/CustomMessageReceiverService///PointingToDeclaration/app/com.danielg7.cripto.android.services/-custom-message-receiver-service/index.html
+$dokka.location:com.danielg7.cripto.android.services/CustomMessageReceiverService/CustomMessageReceiverService/#/PointingToDeclaration/app/com.danielg7.cripto.android.services/-custom-message-receiver-service/-custom-message-receiver-service.html
+$dokka.location:com.danielg7.cripto.android.services/CustomMessageReceiverService/notificationHandlerFactory/#/PointingToDeclaration/app/com.danielg7.cripto.android.services/-custom-message-receiver-service/notification-handler-factory.html
+$dokka.location:com.danielg7.cripto.android.services/CustomMessageReceiverService/onMessageReceived/#com.google.firebase.messaging.RemoteMessage/PointingToDeclaration/app/com.danielg7.cripto.android.services/-custom-message-receiver-service/on-message-received.html
 $dokka.location:com.danielg7.cripto.data.local.daos////PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/index.html
 $dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao///PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/index.html
 $dokka.location:com.danielg7.cripto.data.local.daos/CriptosDao/deleteJobs/#/PointingToDeclaration/app/com.danielg7.cripto.data.local.daos/-criptos-dao/delete-jobs.html
@@ -104,6 +116,7 @@ $dokka.location:com.danielg7.cripto.di/CriptosModule///PointingToDeclaration/ap
 $dokka.location:com.danielg7.cripto.di/CriptosModule/CriptosModule/#/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/-criptos-module.html
 $dokka.location:com.danielg7.cripto.di/CriptosModule/provideApplicationContext/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/provide-application-context.html
 $dokka.location:com.danielg7.cripto.di/CriptosModule/provideDatabase/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/provide-database.html
+$dokka.location:com.danielg7.cripto.di/CriptosModule/provideNotificationHandler/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.di/-criptos-module/provide-notification-handler.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule///PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/index.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule/DataSourceModule/#/PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/-data-source-module.html
 $dokka.location:com.danielg7.cripto.di/DataSourceModule/bindCriptosLocalDataSource/#com.danielg7.cripto.data.CriptoLocalDataSourceImpl/PointingToDeclaration/app/com.danielg7.cripto.di/-data-source-module/bind-criptos-local-data-source.html
@@ -169,6 +182,11 @@ $dokka.location:com.danielg7.cripto.tutorial/Tabla///PointingToDeclaration/app/
 $dokka.location:com.danielg7.cripto.tutorial/Tabla/Tabla/#kotlin.Int/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-tabla/-tabla.html
 $dokka.location:com.danielg7.cripto.tutorial/Tabla/imprimirTabla/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-tabla/imprimir-tabla.html
 $dokka.location:com.danielg7.cripto.tutorial/Tabla/numero/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-tabla/numero.html
+$dokka.location:com.danielg7.cripto.ui.atm////PointingToDeclaration/app/com.danielg7.cripto.ui.atm/index.html
+$dokka.location:com.danielg7.cripto.ui.atm/AtmActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-companion/index.html
+$dokka.location:com.danielg7.cripto.ui.atm/AtmActivity.Companion/getIntent/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-companion/get-intent.html
+$dokka.location:com.danielg7.cripto.ui.atm/AtmActivity///PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/index.html
+$dokka.location:com.danielg7.cripto.ui.atm/AtmActivity/AtmActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-atm-activity.html
 $dokka.location:com.danielg7.cripto.ui.components////PointingToDeclaration/app/com.danielg7.cripto.ui.components/index.html
 $dokka.location:com.danielg7.cripto.ui.components//Card/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-card.html
 $dokka.location:com.danielg7.cripto.ui.components//CardBox/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-card-box.html
@@ -233,15 +251,19 @@ $dokka.location:com.danielg7.cripto//Greeting2/#kotlin.String/PointingToDeclarat
 $dokka.location:com.danielg7.cripto/BaseApplication///PointingToDeclaration/app/com.danielg7.cripto/-base-application/index.html
 $dokka.location:com.danielg7.cripto/BaseApplication/BaseApplication/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/-base-application.html
 $dokka.location:com.danielg7.cripto/BaseApplication/onCreate/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/on-create.html
+$dokka.location:com.danielg7.cripto/BaseApplication/taskNotificationsCounter/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/task-notifications-counter.html
 $dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/index.html
 $dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion/CRIPTO_KEY/#/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/-c-r-i-p-t-o_-k-e-y.html
 $dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion/getIntent/#android.content.Context#com.danielg7.cripto.data.remote.models.Cripto?/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/get-intent.html
 $dokka.location:com.danielg7.cripto/CriptoDetailsActivity///PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/index.html
 $dokka.location:com.danielg7.cripto/CriptoDetailsActivity/CriptoDetailsActivity/#/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-cripto-details-activity.html
+$dokka.location:com.danielg7.cripto/MainActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-companion/index.html
+$dokka.location:com.danielg7.cripto/MainActivity.Companion/getIntent/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-companion/get-intent.html
 $dokka.location:com.danielg7.cripto/MainActivity///PointingToDeclaration/app/com.danielg7.cripto/-main-activity/index.html
 $dokka.location:com.danielg7.cripto/MainActivity/MainActivity/#/PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-main-activity.html
 com.danielg7.cripto
-com.danielg7.cripto.android
+com.danielg7.cripto.android.notifications
+com.danielg7.cripto.android.services
 com.danielg7.cripto.data
 com.danielg7.cripto.data.local
 com.danielg7.cripto.data.local.daos
@@ -254,6 +276,7 @@ com.danielg7.cripto.domain.usecases
 com.danielg7.cripto.domain.viewmodels
 com.danielg7.cripto.tutorial
 com.danielg7.cripto.ui
+com.danielg7.cripto.ui.atm
 com.danielg7.cripto.ui.components
 com.danielg7.cripto.ui.theme
 com.danielg7.cripto.ui.ui.theme
