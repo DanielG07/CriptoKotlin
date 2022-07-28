@@ -13,6 +13,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
+import timber.log.Timber
 
 @HiltViewModel
 class CriptoViewModel @Inject constructor(private val useCase: CriptoUseCase) : ViewModel() {
@@ -30,6 +31,29 @@ class CriptoViewModel @Inject constructor(private val useCase: CriptoUseCase) : 
                     is DataState.Success -> {
                         onSuccess(response.data)
                         criptos = response.data
+                    }
+                    is DataState.Error -> {
+                        onError(response.error)
+                    }
+                    else -> Unit
+                }
+            }.launchIn(viewModelScope)
+    }
+
+    fun buyCripto(
+        onSuccess: (successResponse: List<Cripto>) -> Unit,
+        onError: (errorResponse: ErrorResponse) -> Unit,
+        refresh: Boolean,
+        price: Double
+    ) {
+        useCase.buyCriptos(refresh)
+            .onEach { response ->
+                when (response) {
+                    is DataState.Success -> {
+
+                        onSuccess(response.data)
+                        criptos = response.data
+                        Timber.d("$price")
                     }
                     is DataState.Error -> {
                         onError(response.error)

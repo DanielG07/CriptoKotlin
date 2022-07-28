@@ -32,4 +32,21 @@ class CriptosRepositoryImpl @Inject constructor(
                     .map { DataState.Success(it) }
             }
         }
+
+    override fun buyCriptos(refresh: Boolean): Flow<DataState<List<Cripto>, ErrorResponse>> =
+        when (refresh) {
+            true ->
+                flow {
+                    val response = remoteDataSource.getCriptos()
+                    when (response) {
+                        is DataState.Success ->
+                            localDataSource.insertCriptos(response.data)
+                    }
+                    emit(response)
+                }
+            false -> {
+                localDataSource.getCriptos()
+                    .map { DataState.Success(it) }
+            }
+        }
 }

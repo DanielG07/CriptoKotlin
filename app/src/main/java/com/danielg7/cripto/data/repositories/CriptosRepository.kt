@@ -15,4 +15,5 @@ interface CriptosRepository {
      * @see getCriptos
      */
     fun getCriptos(refresh: Boolean): Flow<DataState<List<Cripto>, ErrorResponse>>
+    fun buyCriptos(refresh: Boolean): Flow<DataState<List<Cripto>, ErrorResponse>>
 }

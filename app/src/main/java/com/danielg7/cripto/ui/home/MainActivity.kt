@@ -1,4 +1,4 @@
-package com.danielg7.cripto
+package com.danielg7.cripto.ui.home
 
 import android.content.Context
 import android.content.Intent
@@ -7,16 +7,9 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
-import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.material.*
-import androidx.compose.ui.Modifier
+import androidx.navigation.compose.rememberNavController
 import com.danielg7.cripto.domain.viewmodels.CriptoViewModel
-import com.danielg7.cripto.ui.atm.AtmActivity
-import com.danielg7.cripto.ui.components.CardCripto
 import com.danielg7.cripto.ui.theme.CriptoTheme
-import com.danielg7.cripto.utils.hasInternetConnection
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.messaging.FirebaseMessaging
 import dagger.hilt.android.AndroidEntryPoint
@@ -29,42 +22,11 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val activityContext = this
-
-        vm.getCriptos(
-            onSuccess = {
-                Timber.v(it.size.toString())
-            },
-            onError = {
-                Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show()
-            },
-            refresh = hasInternetConnection()
-        )
-
         setContent {
             CriptoTheme {
-                Scaffold(
-                    topBar = {
-                        TopAppBar(
-                            title = { Text(text = "Cripto") }
-                        )
-                    },
-                    bottomBar = {
-                        BottomAppBar { /* Bottom app bar content */ }
-                    }
-                ) {
-                    LazyColumn(
-                        modifier = Modifier.fillMaxSize()
-                    ) {
-                        items(vm.criptos) { item ->
-                            CardCripto(item = item, onClick = {
-                                // val intent = CriptoDetailsActivity.getIntent(activityContext, item)
-                                val intent = AtmActivity.getIntent(activityContext)
-                                startActivity(intent)
-                            })
-                        }
-                    }
-                }
+                val navController = rememberNavController()
+                HomeGraph(navController)
+                // Home()
             }
         }
     }

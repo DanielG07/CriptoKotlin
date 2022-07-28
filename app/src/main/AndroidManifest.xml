@@ -36,12 +36,12 @@
             android:exported="false"
             android:label="@string/title_activity_cripto_detail" />
         <activity
-            android:name=".CriptoDetailsActivity"
+            android:name=".ui.detail.CriptoDetailsActivity"
             android:exported="false"
             android:label="@string/title_activity_cripto_detail"
             android:theme="@style/Theme.Cripto" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Cripto">
             <intent-filter>

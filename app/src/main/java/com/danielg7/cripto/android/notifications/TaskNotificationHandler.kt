@@ -10,8 +10,8 @@ import android.graphics.Color
 import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import com.danielg7.cripto.MainActivity
 import com.danielg7.cripto.R
+import com.danielg7.cripto.ui.home.MainActivity
 
 class TaskNotificationHandler(private val context: Context) : ContextWrapper(context),
     INotificationHandler {

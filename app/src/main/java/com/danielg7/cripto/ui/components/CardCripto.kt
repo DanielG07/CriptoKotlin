@@ -2,14 +2,17 @@ package com.danielg7.cripto.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ChevronRight
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.filled.Payments
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -57,10 +60,31 @@ fun CardCripto(item: Cripto, onClick: () -> Unit) {
                     text = "${context.getStringByIdName(item.book)}"
                 )
             }
-            Icon(
-                imageVector = Icons.Filled.ChevronRight,
-                contentDescription = "ArrowDescription"
-            )
+            Row() {
+                IconButton(modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colors.surface),
+                    onClick = onClick) {
+                    Icon(
+                        imageVector = Icons.Filled.Bookmark,
+                        contentDescription = "ArrowDescription",
+                        tint = MaterialTheme.colors.onSurface
+                    )
+                }
+                Spacer(modifier = Modifier.width(4.dp))
+                IconButton(modifier = Modifier
+                    .size(40.dp)
+                    .clip(CircleShape)
+                    .background(MaterialTheme.colors.surface),
+                    onClick = { /*TODO*/ }) {
+                    Icon(
+                        imageVector = Icons.Filled.Map,
+                        contentDescription = "ArrowDescription",
+                        tint = MaterialTheme.colors.onSurface
+                    )
+                }
+            }
         }
     }
 }

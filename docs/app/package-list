@@ -92,9 +92,11 @@ $dokka.location:com.danielg7.cripto.data.remote.models/Structure/taker/#/Pointin
 $dokka.location:com.danielg7.cripto.data.remote.models/Structure/volume/#/PointingToDeclaration/app/com.danielg7.cripto.data.remote.models/-structure/volume.html
 $dokka.location:com.danielg7.cripto.data.repositories////PointingToDeclaration/app/com.danielg7.cripto.data.repositories/index.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepository///PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository/index.html
+$dokka.location:com.danielg7.cripto.data.repositories/CriptosRepository/buyCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository/buy-criptos.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepository/getCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository/get-criptos.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl///PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/index.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/CriptosRepositoryImpl/#com.danielg7.cripto.data.CriptoRemoteDataSource#com.danielg7.cripto.data.CriptoLocalDataSource/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/-criptos-repository-impl.html
+$dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/buyCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/buy-criptos.html
 $dokka.location:com.danielg7.cripto.data.repositories/CriptosRepositoryImpl/getCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.data.repositories/-criptos-repository-impl/get-criptos.html
 $dokka.location:com.danielg7.cripto.data////PointingToDeclaration/app/com.danielg7.cripto.data/index.html
 $dokka.location:com.danielg7.cripto.data/CriptoLocalDataSource///PointingToDeclaration/app/com.danielg7.cripto.data/-cripto-local-data-source/index.html
@@ -132,10 +134,12 @@ $dokka.location:com.danielg7.cripto.di/RepositoryModule/bindCriptosRepository/#c
 $dokka.location:com.danielg7.cripto.domain.usecases////PointingToDeclaration/app/com.danielg7.cripto.domain.usecases/index.html
 $dokka.location:com.danielg7.cripto.domain.usecases/CriptoUseCase///PointingToDeclaration/app/com.danielg7.cripto.domain.usecases/-cripto-use-case/index.html
 $dokka.location:com.danielg7.cripto.domain.usecases/CriptoUseCase/CriptoUseCase/#com.danielg7.cripto.data.repositories.CriptosRepository/PointingToDeclaration/app/com.danielg7.cripto.domain.usecases/-cripto-use-case/-cripto-use-case.html
+$dokka.location:com.danielg7.cripto.domain.usecases/CriptoUseCase/buyCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.domain.usecases/-cripto-use-case/buy-criptos.html
 $dokka.location:com.danielg7.cripto.domain.usecases/CriptoUseCase/getCriptos/#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.domain.usecases/-cripto-use-case/get-criptos.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels////PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/index.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel///PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/index.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/CriptoViewModel/#com.danielg7.cripto.domain.usecases.CriptoUseCase/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/-cripto-view-model.html
+$dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/buyCripto/#kotlin.Function1[kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto],kotlin.Unit]#kotlin.Function1[com.danielg7.cripto.utils.ErrorResponse,kotlin.Unit]#kotlin.Boolean#kotlin.Double/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/buy-cripto.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/criptos/#/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/criptos.html
 $dokka.location:com.danielg7.cripto.domain.viewmodels/CriptoViewModel/getCriptos/#kotlin.Function1[kotlin.collections.List[com.danielg7.cripto.data.remote.models.Cripto],kotlin.Unit]#kotlin.Function1[com.danielg7.cripto.utils.ErrorResponse,kotlin.Unit]#kotlin.Boolean/PointingToDeclaration/app/com.danielg7.cripto.domain.viewmodels/-cripto-view-model/get-criptos.html
 $dokka.location:com.danielg7.cripto.tutorial////PointingToDeclaration/app/com.danielg7.cripto.tutorial/index.html
@@ -183,11 +187,13 @@ $dokka.location:com.danielg7.cripto.tutorial/Tabla/Tabla/#kotlin.Int/PointingToD
 $dokka.location:com.danielg7.cripto.tutorial/Tabla/imprimirTabla/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-tabla/imprimir-tabla.html
 $dokka.location:com.danielg7.cripto.tutorial/Tabla/numero/#/PointingToDeclaration/app/com.danielg7.cripto.tutorial/-tabla/numero.html
 $dokka.location:com.danielg7.cripto.ui.atm////PointingToDeclaration/app/com.danielg7.cripto.ui.atm/index.html
+$dokka.location:com.danielg7.cripto.ui.atm//Map/#/PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-map.html
 $dokka.location:com.danielg7.cripto.ui.atm/AtmActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-companion/index.html
 $dokka.location:com.danielg7.cripto.ui.atm/AtmActivity.Companion/getIntent/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-companion/get-intent.html
 $dokka.location:com.danielg7.cripto.ui.atm/AtmActivity///PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/index.html
 $dokka.location:com.danielg7.cripto.ui.atm/AtmActivity/AtmActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui.atm/-atm-activity/-atm-activity.html
 $dokka.location:com.danielg7.cripto.ui.components////PointingToDeclaration/app/com.danielg7.cripto.ui.components/index.html
+$dokka.location:com.danielg7.cripto.ui.components//AlertInput/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean#androidx.compose.ui.text.input.TextFieldValue#kotlin.Function1[androidx.compose.ui.text.input.TextFieldValue,kotlin.Unit]#kotlin.Function0[kotlin.Unit]#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-alert-input.html
 $dokka.location:com.danielg7.cripto.ui.components//Card/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-card.html
 $dokka.location:com.danielg7.cripto.ui.components//CardBox/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-card-box.html
 $dokka.location:com.danielg7.cripto.ui.components//CardBoxPreview/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-card-box-preview.html
@@ -200,6 +206,26 @@ $dokka.location:com.danielg7.cripto.ui.components//CardPreviewDark/#/PointingToD
 $dokka.location:com.danielg7.cripto.ui.components//CriptoButton/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-cripto-button.html
 $dokka.location:com.danielg7.cripto.ui.components//CriptoButtonPreview/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-cripto-button-preview.html
 $dokka.location:com.danielg7.cripto.ui.components//CriptoButtonPreviewDark/#/PointingToDeclaration/app/com.danielg7.cripto.ui.components/-cripto-button-preview-dark.html
+$dokka.location:com.danielg7.cripto.ui.detail////PointingToDeclaration/app/com.danielg7.cripto.ui.detail/index.html
+$dokka.location:com.danielg7.cripto.ui.detail//DefaultPreview2/#/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-default-preview2.html
+$dokka.location:com.danielg7.cripto.ui.detail//Details/#com.danielg7.cripto.data.remote.models.Cripto?/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-details.html
+$dokka.location:com.danielg7.cripto.ui.detail//Greeting2/#kotlin.String/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-greeting2.html
+$dokka.location:com.danielg7.cripto.ui.detail//HelloContent/#/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-hello-content.html
+$dokka.location:com.danielg7.cripto.ui.detail/CriptoDetailsActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-cripto-details-activity/-companion/index.html
+$dokka.location:com.danielg7.cripto.ui.detail/CriptoDetailsActivity.Companion/CRIPTO_KEY/#/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-cripto-details-activity/-companion/-c-r-i-p-t-o_-k-e-y.html
+$dokka.location:com.danielg7.cripto.ui.detail/CriptoDetailsActivity.Companion/getIntent/#android.content.Context#com.danielg7.cripto.data.remote.models.Cripto?/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-cripto-details-activity/-companion/get-intent.html
+$dokka.location:com.danielg7.cripto.ui.detail/CriptoDetailsActivity///PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-cripto-details-activity/index.html
+$dokka.location:com.danielg7.cripto.ui.detail/CriptoDetailsActivity/CriptoDetailsActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui.detail/-cripto-details-activity/-cripto-details-activity.html
+$dokka.location:com.danielg7.cripto.ui.home////PointingToDeclaration/app/com.danielg7.cripto.ui.home/index.html
+$dokka.location:com.danielg7.cripto.ui.home//Home/#androidx.navigation.NavHostController/PointingToDeclaration/app/com.danielg7.cripto.ui.home/-home.html
+$dokka.location:com.danielg7.cripto.ui.home//HomeGraph/#androidx.navigation.NavHostController/PointingToDeclaration/app/com.danielg7.cripto.ui.home/-home-graph.html
+$dokka.location:com.danielg7.cripto.ui.home/MainActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto.ui.home/-main-activity/-companion/index.html
+$dokka.location:com.danielg7.cripto.ui.home/MainActivity.Companion/getIntent/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto.ui.home/-main-activity/-companion/get-intent.html
+$dokka.location:com.danielg7.cripto.ui.home/MainActivity///PointingToDeclaration/app/com.danielg7.cripto.ui.home/-main-activity/index.html
+$dokka.location:com.danielg7.cripto.ui.home/MainActivity/MainActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui.home/-main-activity/-main-activity.html
+$dokka.location:com.danielg7.cripto.ui.splash////PointingToDeclaration/app/com.danielg7.cripto.ui.splash/index.html
+$dokka.location:com.danielg7.cripto.ui.splash/SplashActivity///PointingToDeclaration/app/com.danielg7.cripto.ui.splash/-splash-activity/index.html
+$dokka.location:com.danielg7.cripto.ui.splash/SplashActivity/SplashActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui.splash/-splash-activity/-splash-activity.html
 $dokka.location:com.danielg7.cripto.ui.theme////PointingToDeclaration/app/com.danielg7.cripto.ui.theme/index.html
 $dokka.location:com.danielg7.cripto.ui.theme//BlueGray400/#/PointingToDeclaration/app/com.danielg7.cripto.ui.theme/-blue-gray400.html
 $dokka.location:com.danielg7.cripto.ui.theme//BlueGrayDark/#/PointingToDeclaration/app/com.danielg7.cripto.ui.theme/-blue-gray-dark.html
@@ -220,11 +246,6 @@ $dokka.location:com.danielg7.cripto.ui.ui.theme//Purple700/#/PointingToDeclarati
 $dokka.location:com.danielg7.cripto.ui.ui.theme//Shapes/#/PointingToDeclaration/app/com.danielg7.cripto.ui.ui.theme/-shapes.html
 $dokka.location:com.danielg7.cripto.ui.ui.theme//Teal200/#/PointingToDeclaration/app/com.danielg7.cripto.ui.ui.theme/-teal200.html
 $dokka.location:com.danielg7.cripto.ui.ui.theme//Typography/#/PointingToDeclaration/app/com.danielg7.cripto.ui.ui.theme/-typography.html
-$dokka.location:com.danielg7.cripto.ui////PointingToDeclaration/app/com.danielg7.cripto.ui/index.html
-$dokka.location:com.danielg7.cripto.ui//DefaultPreview/#/PointingToDeclaration/app/com.danielg7.cripto.ui/-default-preview.html
-$dokka.location:com.danielg7.cripto.ui//Greeting/#kotlin.String/PointingToDeclaration/app/com.danielg7.cripto.ui/-greeting.html
-$dokka.location:com.danielg7.cripto.ui/CriptoDetailActivity///PointingToDeclaration/app/com.danielg7.cripto.ui/-cripto-detail-activity/index.html
-$dokka.location:com.danielg7.cripto.ui/CriptoDetailActivity/CriptoDetailActivity/#/PointingToDeclaration/app/com.danielg7.cripto.ui/-cripto-detail-activity/-cripto-detail-activity.html
 $dokka.location:com.danielg7.cripto.utils////PointingToDeclaration/app/com.danielg7.cripto.utils/index.html
 $dokka.location:com.danielg7.cripto.utils//getStringByIdName/android.content.Context#kotlin.String?/PointingToDeclaration/app/com.danielg7.cripto.utils/get-string-by-id-name.html
 $dokka.location:com.danielg7.cripto.utils//hasInternetConnection/android.content.Context#/PointingToDeclaration/app/com.danielg7.cripto.utils/has-internet-connection.html
@@ -246,21 +267,10 @@ $dokka.location:com.danielg7.cripto.utils/ReleaseTree.Companion///PointingToDecl
 $dokka.location:com.danielg7.cripto.utils/ReleaseTree///PointingToDeclaration/app/com.danielg7.cripto.utils/-release-tree/index.html
 $dokka.location:com.danielg7.cripto.utils/ReleaseTree/ReleaseTree/#/PointingToDeclaration/app/com.danielg7.cripto.utils/-release-tree/-release-tree.html
 $dokka.location:com.danielg7.cripto////PointingToDeclaration/app/com.danielg7.cripto/index.html
-$dokka.location:com.danielg7.cripto//DefaultPreview2/#/PointingToDeclaration/app/com.danielg7.cripto/-default-preview2.html
-$dokka.location:com.danielg7.cripto//Greeting2/#kotlin.String/PointingToDeclaration/app/com.danielg7.cripto/-greeting2.html
 $dokka.location:com.danielg7.cripto/BaseApplication///PointingToDeclaration/app/com.danielg7.cripto/-base-application/index.html
 $dokka.location:com.danielg7.cripto/BaseApplication/BaseApplication/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/-base-application.html
 $dokka.location:com.danielg7.cripto/BaseApplication/onCreate/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/on-create.html
 $dokka.location:com.danielg7.cripto/BaseApplication/taskNotificationsCounter/#/PointingToDeclaration/app/com.danielg7.cripto/-base-application/task-notifications-counter.html
-$dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/index.html
-$dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion/CRIPTO_KEY/#/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/-c-r-i-p-t-o_-k-e-y.html
-$dokka.location:com.danielg7.cripto/CriptoDetailsActivity.Companion/getIntent/#android.content.Context#com.danielg7.cripto.data.remote.models.Cripto?/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-companion/get-intent.html
-$dokka.location:com.danielg7.cripto/CriptoDetailsActivity///PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/index.html
-$dokka.location:com.danielg7.cripto/CriptoDetailsActivity/CriptoDetailsActivity/#/PointingToDeclaration/app/com.danielg7.cripto/-cripto-details-activity/-cripto-details-activity.html
-$dokka.location:com.danielg7.cripto/MainActivity.Companion///PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-companion/index.html
-$dokka.location:com.danielg7.cripto/MainActivity.Companion/getIntent/#android.content.Context/PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-companion/get-intent.html
-$dokka.location:com.danielg7.cripto/MainActivity///PointingToDeclaration/app/com.danielg7.cripto/-main-activity/index.html
-$dokka.location:com.danielg7.cripto/MainActivity/MainActivity/#/PointingToDeclaration/app/com.danielg7.cripto/-main-activity/-main-activity.html
 com.danielg7.cripto
 com.danielg7.cripto.android.notifications
 com.danielg7.cripto.android.services
@@ -275,9 +285,11 @@ com.danielg7.cripto.di
 com.danielg7.cripto.domain.usecases
 com.danielg7.cripto.domain.viewmodels
 com.danielg7.cripto.tutorial
-com.danielg7.cripto.ui
 com.danielg7.cripto.ui.atm
 com.danielg7.cripto.ui.components
+com.danielg7.cripto.ui.detail
+com.danielg7.cripto.ui.home
+com.danielg7.cripto.ui.splash
 com.danielg7.cripto.ui.theme
 com.danielg7.cripto.ui.ui.theme
 com.danielg7.cripto.utils
