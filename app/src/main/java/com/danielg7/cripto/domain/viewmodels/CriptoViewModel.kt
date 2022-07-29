@@ -5,10 +5,10 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.danielg7.common.utils.DataState
+import com.danielg7.common.utils.ErrorResponse
 import com.danielg7.cripto.data.remote.models.Cripto
 import com.danielg7.cripto.domain.usecases.CriptoUseCase
-import com.danielg7.cripto.utils.DataState
-import com.danielg7.cripto.utils.ErrorResponse
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.launchIn

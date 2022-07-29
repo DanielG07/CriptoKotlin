@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "1094493241194",
+    "project_id": "cripto-495a7",
+    "storage_bucket": "cripto-495a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094493241194:android:3110d4f96a0209d721ef13",
+        "android_client_info": {
+          "package_name": "com.danielg7.cripto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094493241194-m8to1rocc3kdra8ohi2n7krmpdjjc6ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danielg7.cripto",
+            "certificate_hash": "b598dd914f6b559fb091af81ee2257e6c3e2c293"
+          }
+        },
+        {
+          "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTolkWpK59jt2Y5y8_1BI96BH5vx_rb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094493241194:android:10fb708ca3b8e93621ef13",
+        "android_client_info": {
+          "package_name": "com.danielg7.cripto.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTolkWpK59jt2Y5y8_1BI96BH5vx_rb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094493241194:android:d0b10b4854a1f19921ef13",
+        "android_client_info": {
+          "package_name": "com.danielg7.traders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094493241194-to56olo4l4paco009va0g70ri0c74ulh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danielg7.traders",
+            "certificate_hash": "b598dd914f6b559fb091af81ee2257e6c3e2c293"
+          }
+        },
+        {
+          "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnTolkWpK59jt2Y5y8_1BI96BH5vx_rb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094493241194-ilre5hok986ee7rl2pbseq6937opvee4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

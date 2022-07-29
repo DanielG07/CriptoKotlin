@@ -1,4 +1,4 @@
-package com.danielg7.cripto.utils
+package com.danielg7.common.utils
 
 import android.R.attr
 import android.util.Log

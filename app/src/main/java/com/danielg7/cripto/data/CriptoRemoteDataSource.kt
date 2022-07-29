@@ -1,8 +1,8 @@
 package com.danielg7.cripto.data
 
+import com.danielg7.common.utils.DataState
+import com.danielg7.common.utils.ErrorResponse
 import com.danielg7.cripto.data.remote.models.Cripto
-import com.danielg7.cripto.utils.DataState
-import com.danielg7.cripto.utils.ErrorResponse
 
 interface CriptoRemoteDataSource {
 

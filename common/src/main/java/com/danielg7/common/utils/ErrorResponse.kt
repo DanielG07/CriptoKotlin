@@ -1,4 +1,4 @@
-package com.danielg7.cripto.utils
+package com.danielg7.common.utils
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

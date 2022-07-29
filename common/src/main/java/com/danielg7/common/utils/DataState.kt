@@ -1,4 +1,4 @@
-package com.danielg7.cripto.utils
+package com.danielg7.common.utils
 
 sealed class DataState<out T : Any, out U : Any> {
 

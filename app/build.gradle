@@ -140,10 +140,6 @@ dependencies {
     implementation "com.google.android.gms:play-services-maps:18.0.2"
 
 
-    //Debug
-    implementation 'com.jakewharton.timber:timber:5.0.1'
-
-
     //Persistence
     implementation "androidx.room:room-runtime:2.5.0-alpha02"
     implementation "androidx.room:room-ktx:2.5.0-alpha02"
@@ -152,7 +148,8 @@ dependencies {
     kapt "android.arch.persistence.room:compiler:1.1.1"
     testImplementation "androidx.room:room-testing:2.5.0-alpha02"
 
-
+    //Debug
+    implementation 'com.jakewharton.timber:timber:5.0.1'
 
 
     testImplementation 'junit:junit:4.13.2'
@@ -161,6 +158,8 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    implementation project(":common")
 }
 
 check.dependsOn ktlint
